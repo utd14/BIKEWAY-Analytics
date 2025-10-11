@@ -10,22 +10,26 @@ As a data analyst at BIKEWAY, I work with our sales, inventory, and customer dat
 - **Staff Performance**: Analyzing our team's efficiency 
 
 # Main Analytics
-(to be replaced)
+![Monthly Sales](analytics/charts/4_line_monthly_sales.png)
+![Top Products](analytics/charts/3_horizontal_bar_top_products.png)
 
 # Installation
 ## Prerequisites
 - PostgreSQL (version 12 or higher)
 - Python 3.8+
-- Apache Superset
 ## Tool installation
-1. **Install PostgreSQL**
-   - Download from [postgresql.org](https://www.postgresql.org/download/)
-   - Install and remember your password
-2. Download Python python.org (WIP)
+1. Download PostgreSQL from https://www.postgresql.org/download/windows/ 
+   - run installer, set password for postgres user (remember it)
+   - keep default port 5432
+2. Download Python from https://www.python.org/downloads/
+   -get latest 3.x version
+   -run installer
+   -check "Add Python to PATH"
 3.
   - pip install mysql-connector-python
   - pip install psycopg2-binary
   - pip install apache-superset
+
 ## Database Connection
 cmd:
 ```cmd
