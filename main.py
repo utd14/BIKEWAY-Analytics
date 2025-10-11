@@ -1,12 +1,7 @@
 import psycopg2
+from config import get_connection
 
-connection = psycopg2.connect(
-    host="localhost",
-    database="bike_sales_new",
-    user="postgres",
-    password="utedana1404"
-)
-
+connection = get_connection()
 cursor = connection.cursor()
 
 cursor.execute("SELECT * FROM customers LIMIT 10;")
@@ -50,4 +45,5 @@ for row in cursor.fetchall():
     print(" | ".join(str(x) for x in row))
 
 cursor.close()
+
 connection.close()
