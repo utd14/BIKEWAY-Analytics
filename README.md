@@ -34,8 +34,7 @@ As a data analyst at BIKEWAY, I work with our sales, inventory, and customer dat
    ```cmd
    cd C:\path\to\your\project```
 6. Install libraries
-   - ```cmd
-      pip install pandas matplotlib plotly openpyxl sqlalchemy numpy psycopg2```
+   - `pip install pandas matplotlib plotly openpyxl sqlalchemy numpy psycopg2`
    - `pip install mysql-connector-python`
    - `pip install psycopg2-binary`
 
