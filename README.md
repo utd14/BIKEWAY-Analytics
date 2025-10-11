@@ -17,7 +17,7 @@ As a data analyst at BIKEWAY, I work with our sales, inventory, and customer dat
 ## Prerequisites
 - PostgreSQL (version 12 or higher)
 - Python 3.8+
-## Tool installation
+## Tool installation (Windows 10)
 1. Download PostgreSQL from https://www.postgresql.org/download/windows/ 
    - run installer, set password for postgres user (remember it)
    - keep default port 5432
