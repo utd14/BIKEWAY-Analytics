@@ -41,7 +41,7 @@ As a data analyst at BIKEWAY, I work with our sales, inventory, and customer dat
    - `pip install psycopg2-binary`
 
 ## Database Connection
-- In the `installation` folder open `db_create.py` and enter your database name on the line 14 (`NEW_DB_NAME = 'bike_sales_test1'  # CHANGE THE NAME`).
+- In the `installation` folder open `db_create.py` and enter your database name on the line 14 (`NEW_DB_NAME = 'bike_sales_test1'  # CHANGE THE NAME`), as well as your PosgtreSQL username and password.
 - In the same folder, run `python db_create.py`, `python tables_create.py` and `python data_import.py` in this order.
 - Run `python main.py` from the main folder.
    ```cmd
