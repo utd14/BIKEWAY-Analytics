@@ -3,12 +3,12 @@ import psycopg2
 from psycopg2 import sql
 import os
 import numpy as np
-
 import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from config import DB_CONFIG
 
-DATASETS_DIR = 'datasets'
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATASETS_DIR = os.path.join(BASE_DIR, 'datasets')
 
 csv_files = {
     'brands': 'brands.csv',
@@ -57,5 +57,6 @@ for table_name, csv_file in csv_files.items():
 
 cursor.close()
 conn.close()
+
 
 print("Success.")
