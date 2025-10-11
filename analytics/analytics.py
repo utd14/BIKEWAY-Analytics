@@ -7,7 +7,8 @@ from config import get_engine
 
 plt.style.use('seaborn-v0_8-darkgrid')
 
-CHARTS_DIR = 'charts'
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+CHARTS_DIR = os.path.join(BASE_DIR, 'charts')
 os.makedirs(CHARTS_DIR, exist_ok=True)
 
 engine = get_engine()
@@ -260,7 +261,7 @@ from openpyxl import load_workbook
 from openpyxl.styles import PatternFill, Font, Alignment
 from openpyxl.formatting.rule import ColorScaleRule
 
-EXPORTS_DIR = 'exports'
+EXPORTS_DIR = os.path.join(BASE_DIR, 'exports')
 os.makedirs(EXPORTS_DIR, exist_ok=True)
 print("Excelt export + formatting")
 def export_to_excel(dataframes_dict, filename):
