@@ -13,6 +13,11 @@ As a data analyst at BIKEWAY, I work with our sales, inventory, and customer dat
 ![Monthly Sales](analytics/charts/4_line_monthly_sales.png)
 ![Top Products](analytics/charts/3_horizontal_bar_top_products.png)
 
+# ER Diagram
+The database consists of 8 columns: customers, staffs, stores, orders, order_items, products, categories, brands, stocks \
+You can see infomration about the field of each colum, relationships and keys in the following diagram:
+![](diagram.png)
+
 # Installation
 ## Prerequisites
 - PostgreSQL (version 12 or higher)
