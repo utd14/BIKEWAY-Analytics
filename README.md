@@ -21,7 +21,7 @@ As a data analyst at BIKEWAY, I work with our sales, inventory, and customer dat
 1. **Install PostgreSQL**
    - Download from [postgresql.org](https://www.postgresql.org/download/)
    - Install and remember your password
-2. Download Python python.org
+2. Download Python python.org (WIP)
 3.
   - pip install mysql-connector-python
   - pip install psycopg2-binary
