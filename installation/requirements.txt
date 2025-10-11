@@ -1,0 +1,9 @@
+pandas
+matplotlib
+os
+config
+plotly
+openpyx
+sqlalchemy
+numpy
+psycopg2
