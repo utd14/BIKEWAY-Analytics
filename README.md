@@ -29,10 +29,12 @@ As a data analyst at BIKEWAY, I work with our sales, inventory, and customer dat
 4. Check installations
    ```cmd
    python --version
-   psql --version```
+   psql --version
+   ```
 5. Navigate to your project folder
    ```cmd
-   cd C:\path\to\your\project```
+   cd C:\path\to\your\project
+   ```
 6. Install libraries
    - `pip install pandas matplotlib plotly openpyxl sqlalchemy numpy psycopg2`
    - `pip install mysql-connector-python`
