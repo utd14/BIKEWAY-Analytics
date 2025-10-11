@@ -22,21 +22,33 @@ As a data analyst at BIKEWAY, I work with our sales, inventory, and customer dat
    - run installer, set password for postgres user (remember it)
    - keep default port 5432
 2. Download Python from https://www.python.org/downloads/
-   -get latest 3.x version
-   -run installer
-   -check "Add Python to PATH"
-3.
-  - pip install mysql-connector-python
-  - pip install psycopg2-binary
-  - pip install apache-superset
+   - get latest 3.x version
+   - run installer
+   - check "Add Python to PATH"
+3. Open Command Prompt (Win+R, type `cmd`)
+4. Check installations
+   ```cmd
+   python --version
+   psql --version```
+5. Navigate to your project folder
+   ```cmd
+   cd C:\path\to\your\project```
+6. Install libraries
+   - ```cmd
+      pip install pandas matplotlib plotly openpyxl sqlalchemy numpy psycopg2```
+   - `pip install mysql-connector-python`
+   - `pip install psycopg2-binary`
 
 ## Database Connection
-cmd:
-```cmd
-cd C:\path\to\your\folder
-pip install psycopg2-binary
-python main.py
-```
+- In the `installation` folder open `db_create.py` and enter your database name on the line 14 (`NEW_DB_NAME = 'bike_sales_test1'  # CHANGE THE NAME`).
+- In the same folder, run `python db_create.py`, `python tables_create.py` and `python data_import.py` in this order.
+- Run `python main.py` from the main folder.
+   ```cmd
+   cd C:\path\to\your\folder
+   pip install psycopg2-binary
+   python main.py
+   ```
+- For data analytics, run `python analytics.py` from the analytics folder.
 
 # Tools and Resources
 Bike Store Relational Database by Dillon Myrick \
