@@ -1,5 +1,6 @@
 import psycopg2
 import sys
+import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from config import DB_CONFIG
 
@@ -158,5 +159,6 @@ foreign_keys = [
 
 cursor.close()
 conn.close()
+
 
 print("Success.")
