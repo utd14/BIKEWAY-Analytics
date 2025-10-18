@@ -1,0 +1,69 @@
+table_name: Heatmap Sales Volume by Product and Store (6)
+main_dttm_col: null
+description: null
+default_endpoint: null
+offset: 0
+cache_timeout: null
+catalog: bike_sales
+schema: public
+sql: "SELECT\n    p.product_name,\n    s.store_name,\n    SUM(oi.quantity * oi.list_price\
+  \ * (1 - oi.discount)) AS total_sales\nFROM order_items oi\nJOIN products p ON oi.product_id\
+  \ = p.product_id\nJOIN orders o ON oi.order_id = o.order_id\nJOIN stores s ON o.store_id\
+  \ = s.store_id\nGROUP BY p.product_name, s.store_name\nORDER BY total_sales DESC;\n"
+params: null
+template_params: null
+filter_select_enabled: true
+fetch_values_predicate: null
+extra: null
+normalize_columns: false
+always_filter_main_dttm: false
+uuid: 0fe88fd9-84f2-40cf-ab64-ea0e6cfdb1d3
+metrics:
+- metric_name: count
+  verbose_name: COUNT(*)
+  metric_type: count
+  expression: COUNT(*)
+  description: null
+  d3format: null
+  currency: null
+  extra: null
+  warning_text: null
+columns:
+- column_name: total_sales
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: DECIMAL
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: product_name
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: STRING
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: store_name
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: STRING
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+version: 1.0.0
+database_uuid: f48ed8b7-a3e1-4da2-ab3f-0b5845fdd42c

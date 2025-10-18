@@ -1,0 +1,45 @@
+slice_name: Revenue Over Years With Metrics (12)
+description: null
+certified_by: null
+certification_details: null
+viz_type: table
+params:
+  datasource: 33__table
+  viz_type: table
+  slice_id: 25
+  query_mode: aggregate
+  groupby:
+  - order_year
+  temporal_columns_lookup:
+    order_date: true
+  metrics:
+  - avg_order_amount
+  - median_order_amount
+  - revenue_growth_years
+  all_columns:
+  - order_year
+  percent_metrics: []
+  adhoc_filters:
+  - clause: WHERE
+    comparator: No filter
+    expressionType: SIMPLE
+    operator: TEMPORAL_RANGE
+    subject: order_date
+  order_by_cols: []
+  row_limit: 1000
+  table_timestamp_format: smart_date
+  allow_render_html: true
+  show_cell_bars: true
+  color_pn: true
+  comparison_color_scheme: Green
+  comparison_type: values
+  extra_form_data: {}
+  dashboards:
+  - 2
+query_context: '{"datasource":{"id":33,"type":"table"},"force":false,"queries":[{"filters":[{"col":"order_date","op":"TEMPORAL_RANGE","val":"No
+  filter"}],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":["order_year"],"metrics":["avg_order_amount","median_order_amount","revenue_growth_years"],"orderby":[["avg_order_amount",false]],"annotation_layers":[],"row_limit":1000,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[],"time_offsets":[]}],"form_data":{"datasource":"33__table","viz_type":"table","slice_id":25,"query_mode":"aggregate","groupby":["order_year"],"temporal_columns_lookup":{"order_date":true},"metrics":["avg_order_amount","median_order_amount","revenue_growth_years"],"all_columns":["order_year"],"percent_metrics":[],"adhoc_filters":[{"clause":"WHERE","comparator":"No
+  filter","expressionType":"SIMPLE","operator":"TEMPORAL_RANGE","subject":"order_date"}],"order_by_cols":[],"row_limit":1000,"table_timestamp_format":"smart_date","allow_render_html":true,"show_cell_bars":true,"color_pn":true,"comparison_color_scheme":"Green","comparison_type":"values","extra_form_data":{},"dashboards":[2],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: c21cbb08-ae1c-401e-88be-dc76accde4ca
+version: 1.0.0
+dataset_uuid: 52f93c86-a786-4064-a555-4872d9b5d482

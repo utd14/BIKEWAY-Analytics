@@ -1,0 +1,85 @@
+table_name: Today's Sales Impact on Inventory
+main_dttm_col: null
+description: null
+default_endpoint: null
+offset: 0
+cache_timeout: null
+catalog: bike_sales
+schema: public
+sql: "SELECT\n  p.product_name AS product,\n  c.category_name AS category,\n  s.quantity\
+  \ AS current_stock,\n  COALESCE(today_sales.units_sold, 0) AS units_sold_today\n\
+  FROM products p\nLEFT JOIN categories c ON p.category_id = c.category_id\nLEFT JOIN\
+  \ stocks s ON p.product_id = s.product_id\nLEFT JOIN (\n  SELECT \n    oi.product_id,\n\
+  \    SUM(oi.quantity) AS units_sold\n  FROM order_items oi\n  JOIN orders o ON oi.order_id\
+  \ = o.order_id\n  WHERE CAST(o.order_date AS DATE) = CURRENT_DATE\n  GROUP BY oi.product_id\n\
+  ) today_sales ON p.product_id = today_sales.product_id\nORDER BY units_sold_today\
+  \ DESC;"
+params: null
+template_params: null
+filter_select_enabled: true
+fetch_values_predicate: null
+extra: null
+normalize_columns: false
+always_filter_main_dttm: false
+uuid: 39170c1f-60fa-4d3e-aa18-1f9fad3741dd
+metrics:
+- metric_name: count
+  verbose_name: COUNT(*)
+  metric_type: count
+  expression: COUNT(*)
+  description: null
+  d3format: null
+  currency: null
+  extra: null
+  warning_text: null
+columns:
+- column_name: units_sold_today
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: LONGINTEGER
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: ''
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: current_stock
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: INTEGER
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: ''
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: category
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: STRING
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: ''
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: product
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: STRING
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: ''
+  description: null
+  python_date_format: null
+  extra: null
+version: 1.0.0
+database_uuid: f48ed8b7-a3e1-4da2-ab3f-0b5845fdd42c

@@ -1,0 +1,56 @@
+table_name: Word Cloud of Most Sold Products
+main_dttm_col: null
+description: null
+default_endpoint: null
+offset: 0
+cache_timeout: null
+catalog: bike_sales
+schema: public
+sql: "SELECT \n    p.product_name,\n    SUM(oi.quantity) AS total_sold\nFROM order_items\
+  \ oi\nJOIN products p ON oi.product_id = p.product_id\nGROUP BY p.product_name\n\
+  ORDER BY total_sold DESC;\n"
+params: null
+template_params: null
+filter_select_enabled: true
+fetch_values_predicate: null
+extra: null
+normalize_columns: false
+always_filter_main_dttm: false
+uuid: d393235e-a85d-49a6-be02-82d19329b9ca
+metrics:
+- metric_name: count
+  verbose_name: COUNT(*)
+  metric_type: count
+  expression: COUNT(*)
+  description: null
+  d3format: null
+  currency: null
+  extra: null
+  warning_text: null
+columns:
+- column_name: total_sold
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: LONGINTEGER
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: product_name
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: STRING
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+version: 1.0.0
+database_uuid: f48ed8b7-a3e1-4da2-ab3f-0b5845fdd42c

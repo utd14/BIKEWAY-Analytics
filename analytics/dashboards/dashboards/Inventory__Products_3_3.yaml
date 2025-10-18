@@ -1,0 +1,222 @@
+dashboard_title: Inventory & Products (3)
+description: null
+css: ''
+slug: null
+certified_by: null
+certification_details: null
+published: false
+uuid: 7e772519-bc37-433e-90ba-b49b43fe542f
+position:
+  CHART--1Sx927c5Wyu1A75gKlHT:
+    children: []
+    id: CHART--1Sx927c5Wyu1A75gKlHT
+    meta:
+      chartId: 9
+      height: 50
+      sliceName: Total Inventory by Category
+      uuid: 480874dc-ddbd-44ca-b23b-994781b1c073
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-qVbWz4mNdgIj4SEAqS-Il
+    type: CHART
+  CHART-1haaNmAfAzpaE5XOvIN9h:
+    children: []
+    id: CHART-1haaNmAfAzpaE5XOvIN9h
+    meta:
+      chartId: 8
+      height: 50
+      sliceName: Low Stock Alert (<5)
+      uuid: fb43c2d9-edbd-44f8-8d53-8ec19fce8c1f
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-qVbWz4mNdgIj4SEAqS-Il
+    type: CHART
+  CHART-K179oBn7FDJBhkviHpMAs:
+    children: []
+    id: CHART-K179oBn7FDJBhkviHpMAs
+    meta:
+      chartId: 10
+      height: 50
+      sliceName: Inventory Distribution by Brand
+      uuid: 78e91b1a-81b2-4cc2-8493-d4d1876a58e3
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-qVbWz4mNdgIj4SEAqS-Il
+    type: CHART
+  CHART-L-CoBeM4Jnpiz6DELsXAF:
+    children: []
+    id: CHART-L-CoBeM4Jnpiz6DELsXAF
+    meta:
+      chartId: 13
+      height: 50
+      sliceName: Today's Sales Impact on Inventory
+      uuid: e05cffeb-e0ab-48ca-8290-f46c915322af
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-Hmp6rc2AAchvK9pZEUYv1
+    type: CHART
+  CHART-_a9V1GnqRQmIqXTL4_WuA:
+    children: []
+    id: CHART-_a9V1GnqRQmIqXTL4_WuA
+    meta:
+      chartId: 12
+      height: 50
+      sliceName: Product Count by Year
+      uuid: 2a5d363a-f961-40be-89a8-0a74f82e6870
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-Hmp6rc2AAchvK9pZEUYv1
+    type: CHART
+  CHART-uQBaz8Xx5iNWOtNp9o8zL:
+    children: []
+    id: CHART-uQBaz8Xx5iNWOtNp9o8zL
+    meta:
+      chartId: 11
+      height: 50
+      sliceName: Average Price by Category
+      uuid: 867c7f4f-233d-4d0f-8363-465dc87b2fea
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-Hmp6rc2AAchvK9pZEUYv1
+    type: CHART
+  DASHBOARD_VERSION_KEY: v2
+  GRID_ID:
+    children:
+    - ROW-Hmp6rc2AAchvK9pZEUYv1
+    - ROW-qVbWz4mNdgIj4SEAqS-Il
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: Inventory & Products
+    type: HEADER
+  ROOT_ID:
+    children:
+    - GRID_ID
+    id: ROOT_ID
+    type: ROOT
+  ROW-Hmp6rc2AAchvK9pZEUYv1:
+    children:
+    - CHART-L-CoBeM4Jnpiz6DELsXAF
+    - CHART-_a9V1GnqRQmIqXTL4_WuA
+    - CHART-uQBaz8Xx5iNWOtNp9o8zL
+    id: ROW-Hmp6rc2AAchvK9pZEUYv1
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-qVbWz4mNdgIj4SEAqS-Il:
+    children:
+    - CHART-K179oBn7FDJBhkviHpMAs
+    - CHART--1Sx927c5Wyu1A75gKlHT
+    - CHART-1haaNmAfAzpaE5XOvIN9h
+    id: ROW-qVbWz4mNdgIj4SEAqS-Il
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+metadata:
+  timed_refresh_immune_slices: []
+  expanded_slices: {}
+  refresh_frequency: 0
+  color_scheme: ''
+  label_colors: {}
+  cross_filters_enabled: true
+  chart_configuration:
+    '8':
+      id: 8
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+    '9':
+      id: 9
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 8
+        - 10
+        - 11
+        - 12
+        - 13
+    '10':
+      id: 10
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 8
+        - 9
+        - 11
+        - 12
+        - 13
+    '11':
+      id: 11
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 8
+        - 9
+        - 10
+        - 12
+        - 13
+    '12':
+      id: 12
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 8
+        - 9
+        - 10
+        - 11
+        - 13
+    '13':
+      id: 13
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 8
+        - 9
+        - 10
+        - 11
+        - 12
+  global_chart_configuration:
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    chartsInScope:
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+  default_filters: '{}'
+  shared_label_colors:
+  - SUM(total_stock)
+  map_label_colors: {}
+  color_scheme_domain: []
+version: 1.0.0

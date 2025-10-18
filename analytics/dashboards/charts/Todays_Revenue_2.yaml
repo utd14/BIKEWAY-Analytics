@@ -1,0 +1,47 @@
+slice_name: Today's Revenue
+description: null
+certified_by: null
+certification_details: null
+viz_type: big_number_total
+params:
+  datasource: 11__table
+  viz_type: big_number_total
+  slice_id: 2
+  metric:
+    aggregate: null
+    column: null
+    datasourceWarning: false
+    expressionType: SQL
+    hasCustomLabel: false
+    label: SUM(revenue)
+    optionName: metric_nl8hm6i7cn_8aduzpdkxiq
+    sqlExpression: SUM(revenue)
+  adhoc_filters:
+  - clause: WHERE
+    comparator: Current day
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_mbu5qtdc89d_7wzxyu8i9ks
+    isExtra: false
+    isNew: false
+    operator: TEMPORAL_RANGE
+    sqlExpression: null
+    subject: order_date
+  header_font_size: 0.4
+  subheader_font_size: 0.15
+  y_axis_format: SMART_NUMBER
+  currency_format:
+    symbol: USD
+  time_format: smart_date
+  conditional_formatting: []
+  extra_form_data: {}
+  dashboards:
+  - 1
+  - 2
+query_context: '{"datasource":{"id":11,"type":"table"},"force":false,"queries":[{"filters":[{"col":"order_date","op":"TEMPORAL_RANGE","val":"Current
+  day"}],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":[],"metrics":[{"aggregate":null,"column":null,"datasourceWarning":false,"expressionType":"SQL","hasCustomLabel":false,"label":"SUM(revenue)","optionName":"metric_nl8hm6i7cn_8aduzpdkxiq","sqlExpression":"SUM(revenue)"}],"annotation_layers":[],"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"form_data":{"datasource":"11__table","viz_type":"big_number_total","slice_id":2,"metric":{"aggregate":null,"column":null,"datasourceWarning":false,"expressionType":"SQL","hasCustomLabel":false,"label":"SUM(revenue)","optionName":"metric_nl8hm6i7cn_8aduzpdkxiq","sqlExpression":"SUM(revenue)"},"adhoc_filters":[{"clause":"WHERE","comparator":"Current
+  day","datasourceWarning":false,"expressionType":"SIMPLE","filterOptionName":"filter_mbu5qtdc89d_7wzxyu8i9ks","isExtra":false,"isNew":false,"operator":"TEMPORAL_RANGE","sqlExpression":null,"subject":"order_date"}],"header_font_size":0.4,"subheader_font_size":0.15,"y_axis_format":"SMART_NUMBER","currency_format":{"symbol":"USD"},"time_format":"smart_date","conditional_formatting":[],"extra_form_data":{},"dashboards":[1,2],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: fd2500c4-c3f8-4bef-ba14-8113306a97db
+version: 1.0.0
+dataset_uuid: 9b697eef-a52e-4bb1-96e0-aa8e529dfd17

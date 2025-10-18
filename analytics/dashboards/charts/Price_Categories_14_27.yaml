@@ -1,0 +1,43 @@
+slice_name: Price Categories (14)
+description: null
+certified_by: null
+certification_details: null
+viz_type: pie
+params:
+  datasource: 33__table
+  viz_type: pie
+  groupby:
+  - price_category
+  metric: count
+  adhoc_filters:
+  - clause: WHERE
+    subject: order_date
+    operator: TEMPORAL_RANGE
+    comparator: No filter
+    expressionType: SIMPLE
+  row_limit: 100
+  sort_by_metric: true
+  color_scheme: supersetColors
+  show_labels_threshold: 5
+  show_legend: true
+  legendType: scroll
+  legendOrientation: top
+  label_type: key_percent
+  number_format: SMART_NUMBER
+  currency_format:
+    symbol: USD
+    symbolPosition: suffix
+  date_format: smart_date
+  show_labels: true
+  labels_outside: true
+  outerRadius: 70
+  extra_form_data: {}
+  dashboards:
+  - 2
+query_context: '{"datasource":{"id":33,"type":"table"},"force":false,"queries":[{"filters":[{"col":"order_date","op":"TEMPORAL_RANGE","val":"No
+  filter"}],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":["price_category"],"metrics":["count"],"orderby":[["count",false]],"annotation_layers":[],"row_limit":100,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"form_data":{"datasource":"33__table","viz_type":"pie","groupby":["price_category"],"metric":"count","adhoc_filters":[{"clause":"WHERE","subject":"order_date","operator":"TEMPORAL_RANGE","comparator":"No
+  filter","expressionType":"SIMPLE"}],"row_limit":100,"sort_by_metric":true,"color_scheme":"supersetColors","show_labels_threshold":5,"show_legend":true,"legendType":"scroll","legendOrientation":"top","label_type":"key_percent","number_format":"SMART_NUMBER","currency_format":{"symbol":"USD","symbolPosition":"suffix"},"date_format":"smart_date","show_labels":true,"labels_outside":true,"outerRadius":70,"extra_form_data":{},"dashboards":[2],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 8bae6a99-9abf-42f0-b66e-a1b37c9b289a
+version: 1.0.0
+dataset_uuid: 52f93c86-a786-4064-a555-4872d9b5d482

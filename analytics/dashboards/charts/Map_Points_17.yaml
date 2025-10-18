@@ -1,0 +1,52 @@
+slice_name: Map Points
+description: null
+certified_by: null
+certification_details: null
+viz_type: deck_scatter
+params:
+  datasource: 25__table
+  viz_type: deck_scatter
+  spatial:
+    type: latlong
+    latCol: latitude
+    lonCol: longitude
+  row_limit: 1000
+  filter_nulls: true
+  adhoc_filters: []
+  mapbox_style: mapbox://styles/mapbox/light-v9
+  autozoom: true
+  viewport:
+    longitude: 6.85236157047845
+    latitude: 31.222656842808707
+    zoom: 1
+    bearing: 0
+    pitch: 0
+  point_radius_fixed:
+    type: fix
+    value: 1000
+  point_unit: square_m
+  min_radius: 2
+  max_radius: 250
+  multiplier: 1
+  color_picker:
+    r: 0
+    g: 122
+    b: 135
+    a: 1
+  legend_position: tr
+  legend_format: SMART_NUMBER
+  color_scheme: supersetColors
+  js_columns:
+  - store_name
+  - city
+  - state
+  - total_orders
+  time_grain_sqla: null
+  granularity: null
+  extra_form_data: {}
+  dashboards: []
+query_context: '{"datasource":{"id":25,"type":"table"},"force":false,"queries":[{"filters":[],"extras":{"time_grain_sqla":null,"having":"","where":""},"applied_time_extras":{},"columns":[],"metrics":[],"annotation_layers":[],"row_limit":1000,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"form_data":{"datasource":"25__table","viz_type":"deck_scatter","spatial":{"type":"latlong","latCol":"latitude","lonCol":"longitude"},"row_limit":1000,"filter_nulls":true,"adhoc_filters":[],"mapbox_style":"mapbox://styles/mapbox/light-v9","autozoom":true,"viewport":{"longitude":6.85236157047845,"latitude":31.222656842808707,"zoom":1,"bearing":0,"pitch":0},"point_radius_fixed":{"type":"fix","value":1000},"point_unit":"square_m","min_radius":2,"max_radius":250,"multiplier":1,"color_picker":{"r":0,"g":122,"b":135,"a":1},"legend_position":"tr","legend_format":"SMART_NUMBER","color_scheme":"supersetColors","js_columns":["store_name","city","state","total_orders"],"time_grain_sqla":null,"granularity":null,"extra_form_data":{},"dashboards":[],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 2e7299ee-ab77-457a-8e9a-696a0c318d1d
+version: 1.0.0
+dataset_uuid: 6b0e11a2-d5d3-454b-9cb5-79414b36835c

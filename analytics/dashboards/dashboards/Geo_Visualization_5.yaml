@@ -1,0 +1,93 @@
+dashboard_title: Geo Visualization
+description: null
+css: ''
+slug: null
+certified_by: ''
+certification_details: ''
+published: false
+uuid: de43da8e-a7ea-43bc-bb82-c9b76dc5ae75
+position:
+  CHART-XhyD6BJojg8GWgQxFWLki:
+    children: []
+    id: CHART-XhyD6BJojg8GWgQxFWLki
+    meta:
+      chartId: 17
+      height: 50
+      sliceName: Map Points
+      uuid: 2e7299ee-ab77-457a-8e9a-696a0c318d1d
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-D3KBbSxs05U88peuw_7g0
+    type: CHART
+  CHART-dMi9jDovTKZljIonQ2VpS:
+    children: []
+    id: CHART-dMi9jDovTKZljIonQ2VpS
+    meta:
+      chartId: 18
+      height: 50
+      sliceName: Sales Based on Country
+      uuid: 944f4107-13ce-468c-8798-9afadc11b39e
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-D3KBbSxs05U88peuw_7g0
+    type: CHART
+  DASHBOARD_VERSION_KEY: v2
+  GRID_ID:
+    children:
+    - ROW-D3KBbSxs05U88peuw_7g0
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: Geo Visualization
+    type: HEADER
+  ROOT_ID:
+    children:
+    - GRID_ID
+    id: ROOT_ID
+    type: ROOT
+  ROW-D3KBbSxs05U88peuw_7g0:
+    children:
+    - CHART-XhyD6BJojg8GWgQxFWLki
+    - CHART-dMi9jDovTKZljIonQ2VpS
+    id: ROW-D3KBbSxs05U88peuw_7g0
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+metadata:
+  chart_configuration:
+    '18':
+      id: 18
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 17
+  global_chart_configuration:
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    chartsInScope:
+    - 17
+    - 18
+  map_label_colors: {}
+  color_scheme: ''
+  refresh_frequency: 0
+  color_scheme_domain: []
+  expanded_slices: {}
+  label_colors: {}
+  shared_label_colors: []
+  timed_refresh_immune_slices: []
+  cross_filters_enabled: true
+  default_filters: '{}'
+version: 1.0.0

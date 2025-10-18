@@ -1,0 +1,47 @@
+slice_name: Word Cloud of Most Sold Products
+description: null
+certified_by: null
+certification_details: null
+viz_type: word_cloud
+params:
+  datasource: 29__table
+  viz_type: word_cloud
+  series: product_name
+  metric:
+    expressionType: SIMPLE
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: total_sold
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 146
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: LONGINTEGER
+      type_generic: 0
+      verbose_name: null
+      warning_markdown: null
+    aggregate: SUM
+    sqlExpression: null
+    datasourceWarning: false
+    hasCustomLabel: false
+    label: SUM(total_sold)
+    optionName: metric_caonud8vlxj_nns4nj4t37
+  adhoc_filters: []
+  row_limit: 1000
+  size_from: 10
+  size_to: 70
+  rotation: square
+  color_scheme: supersetColors
+  extra_form_data: {}
+  dashboards: []
+query_context: '{"datasource":{"id":29,"type":"table"},"force":false,"queries":[{"filters":[],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":["product_name"],"metrics":[{"expressionType":"SIMPLE","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"total_sold","description":null,"expression":null,"filterable":true,"groupby":true,"id":146,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"LONGINTEGER","type_generic":0,"verbose_name":null,"warning_markdown":null},"aggregate":"SUM","sqlExpression":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"SUM(total_sold)","optionName":"metric_caonud8vlxj_nns4nj4t37"}],"annotation_layers":[],"row_limit":1000,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"form_data":{"datasource":"29__table","viz_type":"word_cloud","series":"product_name","metric":{"expressionType":"SIMPLE","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"total_sold","description":null,"expression":null,"filterable":true,"groupby":true,"id":146,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"LONGINTEGER","type_generic":0,"verbose_name":null,"warning_markdown":null},"aggregate":"SUM","sqlExpression":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"SUM(total_sold)","optionName":"metric_caonud8vlxj_nns4nj4t37"},"adhoc_filters":[],"row_limit":1000,"size_from":10,"size_to":70,"rotation":"square","color_scheme":"supersetColors","extra_form_data":{},"dashboards":[],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 8b150fc1-cba7-4e89-8971-4a1c4fbfda68
+version: 1.0.0
+dataset_uuid: d393235e-a85d-49a6-be02-82d19329b9ca

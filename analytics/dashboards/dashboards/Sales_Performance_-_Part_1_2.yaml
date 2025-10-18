@@ -1,0 +1,621 @@
+dashboard_title: Sales Performance - Part 1
+description: null
+css: ''
+slug: null
+certified_by: ''
+certification_details: ''
+published: false
+uuid: f996fbee-9d04-45a8-b815-04f558b02eea
+position:
+  CHART-5lV7VMnb4f164tLEuqzSC:
+    children: []
+    id: CHART-5lV7VMnb4f164tLEuqzSC
+    meta:
+      chartId: 20
+      height: 50
+      sliceName: Word Cloud of Most Sold Products
+      uuid: 8b150fc1-cba7-4e89-8971-4a1c4fbfda68
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-vKmBhUQv4zftBdMsOo7_9
+    type: CHART
+  CHART-97MGqy4YrsINm6TaaY5uf:
+    children: []
+    id: CHART-97MGqy4YrsINm6TaaY5uf
+    meta:
+      chartId: 14
+      height: 50
+      sliceName: Monthly Sales Trend
+      uuid: 783106fa-63a4-49c0-949d-1e5737ec8819
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-taWw8_-eF4rRvLkTvx9H6
+    type: CHART
+  CHART-AGr4cokvEd5nTjjp4V-S1:
+    children: []
+    id: CHART-AGr4cokvEd5nTjjp4V-S1
+    meta:
+      chartId: 5
+      height: 50
+      sliceName: Top 10 Products by Sales
+      uuid: bcc659fd-5e94-4ba0-b555-beec9f08b09e
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-xqZ7BMKZkIbL2WQ1SLjKY
+    type: CHART
+  CHART-Fbk4okVzFwtjQ4Dtv1gwG:
+    children: []
+    id: CHART-Fbk4okVzFwtjQ4Dtv1gwG
+    meta:
+      chartId: 15
+      height: 50
+      sliceName: Price Distribution in Brands
+      uuid: 22ea7284-65b7-4180-bb80-36294012e236
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-taWw8_-eF4rRvLkTvx9H6
+    type: CHART
+  CHART-GT7jW6IYAVXSrQgZ3ByhJ:
+    children: []
+    id: CHART-GT7jW6IYAVXSrQgZ3ByhJ
+    meta:
+      chartId: 21
+      height: 50
+      sliceName: Category and Brand Contributions to Total Sales
+      uuid: 37862845-ccef-40aa-9a6a-54835b6b9367
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-t_3umsoi3ZmDI3QvYqUOG
+    type: CHART
+  CHART-RXWyOlwJ8fG6iZ1sf0n7A:
+    children: []
+    id: CHART-RXWyOlwJ8fG6iZ1sf0n7A
+    meta:
+      chartId: 7
+      height: 50
+      sliceName: Order Status Distribution
+      uuid: 6de694ed-adcf-4eff-8a49-752a819d4a86
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-xqZ7BMKZkIbL2WQ1SLjKY
+    type: CHART
+  CHART-Z6hE21WiBsm742OLOEwMX:
+    children: []
+    id: CHART-Z6hE21WiBsm742OLOEwMX
+    meta:
+      chartId: 22
+      height: 50
+      sliceName: Sales Distribution by State, City, Store, and Product Category
+      uuid: 72303c2a-6bc5-4a90-b345-7530a4b8bbbb
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-t_3umsoi3ZmDI3QvYqUOG
+    type: CHART
+  CHART-explore-26-1:
+    children: []
+    id: CHART-explore-26-1
+    meta:
+      chartId: 26
+      height: 50
+      sliceName: Heatmap Sales Volume by Product and Store (6)
+      uuid: 18e65d28-286f-43ea-84db-ea94f73fff40
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-t_3umsoi3ZmDI3QvYqUOG
+    type: CHART
+  CHART-explore-27-1:
+    children: []
+    id: CHART-explore-27-1
+    meta:
+      chartId: 27
+      height: 50
+      sliceName: Price Categories (14)
+      uuid: 8bae6a99-9abf-42f0-b66e-a1b37c9b289a
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-kAuQ2OsN8W30-lvhgHZLa
+    type: CHART
+  CHART-hPjJ-Jt68k1uIezvnY-EY:
+    children: []
+    id: CHART-hPjJ-Jt68k1uIezvnY-EY
+    meta:
+      chartId: 4
+      height: 50
+      sliceName: Total Revenue by Store
+      uuid: c149d68d-72e8-46a4-a8f9-4075c2dd20b2
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-xqZ7BMKZkIbL2WQ1SLjKY
+    type: CHART
+  CHART-lyA6qoWrwPdtm2IHQthlV:
+    children: []
+    id: CHART-lyA6qoWrwPdtm2IHQthlV
+    meta:
+      chartId: 16
+      height: 50
+      sliceName: Average Order Value by Store (+ Recreated)
+      uuid: d90b6919-d4e7-4915-a216-f68dd46660f2
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-taWw8_-eF4rRvLkTvx9H6
+    type: CHART
+  DASHBOARD_VERSION_KEY: v2
+  GRID_ID:
+    children:
+    - ROW-xqZ7BMKZkIbL2WQ1SLjKY
+    - ROW-taWw8_-eF4rRvLkTvx9H6
+    - ROW-t_3umsoi3ZmDI3QvYqUOG
+    - ROW-vKmBhUQv4zftBdMsOo7_9
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: Sales Performance - Part 1
+    type: HEADER
+  ROOT_ID:
+    children:
+    - GRID_ID
+    id: ROOT_ID
+    type: ROOT
+  ROW-t_3umsoi3ZmDI3QvYqUOG:
+    children:
+    - CHART-explore-26-1
+    - CHART-Z6hE21WiBsm742OLOEwMX
+    - CHART-GT7jW6IYAVXSrQgZ3ByhJ
+    id: ROW-t_3umsoi3ZmDI3QvYqUOG
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-taWw8_-eF4rRvLkTvx9H6:
+    children:
+    - CHART-97MGqy4YrsINm6TaaY5uf
+    - CHART-Fbk4okVzFwtjQ4Dtv1gwG
+    - CHART-lyA6qoWrwPdtm2IHQthlV
+    id: ROW-taWw8_-eF4rRvLkTvx9H6
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-vKmBhUQv4zftBdMsOo7_9:
+    children:
+    - CHART-5lV7VMnb4f164tLEuqzSC
+    - CHART-explore-27-1
+    id: ROW-vKmBhUQv4zftBdMsOo7_9
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-xqZ7BMKZkIbL2WQ1SLjKY:
+    children:
+    - CHART-RXWyOlwJ8fG6iZ1sf0n7A
+    - CHART-hPjJ-Jt68k1uIezvnY-EY
+    - CHART-AGr4cokvEd5nTjjp4V-S1
+    id: ROW-xqZ7BMKZkIbL2WQ1SLjKY
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+metadata:
+  chart_configuration:
+    '4':
+      id: 4
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 5
+        - 7
+        - 14
+        - 15
+        - 16
+        - 20
+        - 21
+        - 22
+        - 26
+        - 27
+    '5':
+      id: 5
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 4
+        - 7
+        - 14
+        - 15
+        - 16
+        - 20
+        - 21
+        - 22
+        - 26
+        - 27
+    '7':
+      id: 7
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 4
+        - 5
+        - 14
+        - 15
+        - 16
+        - 20
+        - 21
+        - 22
+        - 26
+        - 27
+    '14':
+      id: 14
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 4
+        - 5
+        - 7
+        - 15
+        - 16
+        - 20
+        - 21
+        - 22
+        - 26
+        - 27
+    '16':
+      id: 16
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 4
+        - 5
+        - 7
+        - 14
+        - 15
+        - 20
+        - 21
+        - 22
+        - 26
+        - 27
+    '21':
+      id: 21
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 4
+        - 5
+        - 7
+        - 14
+        - 15
+        - 16
+        - 20
+        - 22
+        - 26
+        - 27
+    '22':
+      id: 22
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 4
+        - 5
+        - 7
+        - 14
+        - 15
+        - 16
+        - 20
+        - 21
+        - 26
+        - 27
+    '27':
+      id: 27
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 4
+        - 5
+        - 7
+        - 14
+        - 15
+        - 16
+        - 20
+        - 21
+        - 22
+        - 26
+  global_chart_configuration:
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    chartsInScope:
+    - 4
+    - 5
+    - 7
+    - 14
+    - 15
+    - 16
+    - 20
+    - 21
+    - 22
+    - 26
+    - 27
+  color_scheme: ''
+  refresh_frequency: 10
+  expanded_slices: {}
+  label_colors: {}
+  timed_refresh_immune_slices: []
+  cross_filters_enabled: true
+  default_filters: '{}'
+  native_filter_configuration:
+  - id: NATIVE_FILTER-MI0oJeRiHiLzrjau2oxr5
+    controlValues:
+      enableEmptyFilter: false
+    name: Today Date
+    filterType: filter_time
+    targets:
+    - {}
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    tabsInScope: []
+  stagger_refresh: true
+  shared_label_colors:
+  - Baldwin Bikes
+  - Children Bicycles
+  - Comfort Bicycles
+  - Cruisers Bicycles
+  - Cyclocross Bicycles
+  - Electric Bikes
+  - Mountain Bikes
+  - Road Bikes
+  - Rowlett Bikes
+  - SUM(total_sales)
+  - Santa Cruz Bikes
+  map_label_colors:
+    SUM(total_quantity_sold): '#1FA8C9'
+    SUM(monthly_revenue): '#1FA8C9'
+    Completed: '#1FA8C9'
+    Processing: '#5AC189'
+    Pending: '#454E7C'
+    Rejected: '#FF7F44'
+    avg_price: '#1FA8C9'
+    SUM(total_revenue): '#1FA8C9'
+    Rowlett Bikes: '#1FA8C9'
+    Baldwin Bikes: '#454E7C'
+    Santa Cruz Bikes: '#5AC189'
+    Entry-Level: '#1FA8C9'
+    Budget: '#454E7C'
+    Mid-Range: '#5AC189'
+    Premium: '#FF7F44'
+    SUM(total_sales): '#1FA8C9'
+    Mountain Bikes: '#FF7F44'
+    Sun Bicycles: '#454E7C'
+    Haro: '#A1A6BD'
+    Ritchey: '#FEC0A1'
+    Surly: '#666666'
+    Trek: '#FF7F44'
+    Heller: '#ACE1C4'
+    Electric Bikes: '#FCC700'
+    Electra: '#5AC189'
+    Road Bikes: '#3CCCCB'
+    Cyclocross Bicycles: '#A38F79'
+    Comfort Bicycles: '#E04355'
+    Cruisers Bicycles: '#666666'
+    Pure Cycles: '#E04355'
+    Children Bicycles: '#A868B7'
+    Strider: '#8FD3E4'
+    Electra Cruiser 1 (24-Inch) - 2016: '#1FA8C9'
+    Electra Townie Original 21D - 2016: '#454E7C'
+    Electra Girl's Hawaii 1 (20-inch) - 2015/2016: '#5AC189'
+    Surly Straggler 650b - 2016: '#FF7F44'
+    Trek Slash 8 27.5 - 2016: '#666666'
+    Surly Straggler - 2016: '#E04355'
+    Trek Conduit+ - 2016: '#FCC700'
+    Trek Fuel EX 8 29 - 2016: '#A868B7'
+    Electra Moto 1 - 2016: '#3CCCCB'
+    Pure Cycles Vine 8-Speed - 2016: '#A38F79'
+    Pure Cycles Western 3-Speed - Women's - 2015/2016: '#454E7C'
+    Heller Shagamaw Frame - 2016: '#8FD3E4'
+    Surly Wednesday Frameset - 2016: '#A38F79'
+    Electra Townie Original 7D EQ - Women's - 2016: '#8FD3E4'
+    Ritchey Timberwolf Frameset - 2016: '#A1A6BD'
+    Pure Cycles William 3-Speed - 2016: '#A1A6BD'
+    Electra Girl's Hawaii 1 16" - 2017: '#ACE1C4'
+    Sun Bicycles Cruz 3 - 2017: '#FEC0A1'
+    Electra Townie Original 7D - 2017: '#B2B2B2'
+    Sun Bicycles Lil Bolt Type-R - 2017: '#EFA1AA'
+    Haro SR 1.2 - 2017: '#FDE380'
+    Sun Bicycles Cruz 7 - 2017: '#D3B3DA'
+    Surly Troll Frameset - 2017: '#9EE5E5'
+    Electra Townie 7D (20-inch) - Boys' - 2017: '#D1C6BC'
+    Trek Emonda S 4 - 2017: '#454E7C'
+    Sun Bicycles Atlas X-Type - 2017: '#5AC189'
+    Trek Domane SLR 6 Disc - 2017: '#FF7F44'
+    Electra Amsterdam Fashion 7i Ladies' - 2017: '#666666'
+    Trek Powerfly 8 FS Plus - 2017: '#E04355'
+    Trek Boone 7 - 2017: '#FCC700'
+    Surly Karate Monkey 27.5+ Frameset - 2017: '#A868B7'
+    Electra Glam Punk 3i Ladies' - 2017: '#3CCCCB'
+    Haro Shredder 20 Girls - 2017: '#A38F79'
+    Electra Townie 3i EQ (20-inch) - Boys' - 2017: '#8FD3E4'
+    Trek Domane SL 6 - 2017: '#A1A6BD'
+    Surly Wednesday Frameset - 2017: '#ACE1C4'
+    Trek Madone 9.2 - 2017: '#FEC0A1'
+    Sun Bicycles Cruz 7 - Women's - 2017: '#B2B2B2'
+    Haro Shift R3 - 2017: '#EFA1AA'
+    Trek Precaliber 24 (21-Speed) - Girls - 2017: '#FDE380'
+    Haro Shredder 20 - 2017: '#D3B3DA'
+    Surly Steamroller - 2017: '#9EE5E5'
+    Trek Domane S 6 - 2017: '#D1C6BC'
+    Sun Bicycles Revolutions 24 - 2017: '#D1C6BC'
+    Trek X-Caliber 8 - 2017: '#454E7C'
+    Sun Bicycles Biscayne Tandem CB - 2017: '#5AC189'
+    Sun Bicycles Streamway 7 - 2017: '#FF7F44'
+    Sun Bicycles Streamway 3 - 2017: '#666666'
+    Trek Fuel EX 9.8 29 - 2017: '#E04355'
+    Trek Silque SLR 7 Women's - 2017: '#FCC700'
+    Trek Fuel EX 9.8 27.5 Plus - 2017: '#A868B7'
+    Haro Flightline One ST - 2017: '#3CCCCB'
+    Trek Precaliber 12 Boys - 2017: '#A38F79'
+    Surly Ice Cream Truck Frameset - 2017: '#8FD3E4'
+    Electra Moto 3i (20-inch) - Boy's - 2017: '#A1A6BD'
+    Sun Bicycles Cruz 3 - Women's - 2017: '#ACE1C4'
+    Sun Bicycles Streamway - 2017: '#FEC0A1'
+    Trek Fuel EX 5 27.5 Plus - 2017: '#B2B2B2'
+    Electra Savannah 3i (20-inch) - Girl's - 2017: '#EFA1AA'
+    Trek Precaliber 12 Girls - 2017: '#FDE380'
+    Electra Amsterdam Original 3i - 2015/2017: '#D3B3DA'
+    Sun Bicycles ElectroLite - 2017: '#9EE5E5'
+    Electra Sugar Skulls 1 (20-inch) - Girl's - 2017: '#9EE5E5'
+    Surly Big Dummy Frameset - 2017: '#D1C6BC'
+    Electra Amsterdam Original 3i Ladies' - 2017: '#454E7C'
+    Sun Bicycles Biscayne Tandem 7 - 2017: '#5AC189'
+    Haro Downtown 16 - 2017: '#FF7F44'
+    Electra Cruiser Lux 1 - 2017: '#666666'
+    Haro SR 1.3 - 2017: '#E04355'
+    Trek Domane S 5 Disc - 2017: '#FCC700'
+    Trek Boone Race Shop Limited - 2017: '#A868B7'
+    Trek Stache 5 - 2017: '#3CCCCB'
+    Sun Bicycles Brickell Tandem 7 - 2017: '#A38F79'
+    Haro Flightline Two 26 Plus - 2017: '#8FD3E4'
+    Trek Precaliber 16 Girls - 2017: '#A1A6BD'
+    Trek Precaliber 16 Boys - 2017: '#FEC0A1'
+    Sun Bicycles Spider 3i - 2017: '#B2B2B2'
+    Haro Shredder Pro 20 - 2017: '#EFA1AA'
+    Sun Bicycles Revolutions 24 - Girl's - 2017: '#FDE380'
+    Trek Farley Alloy Frameset - 2017: '#D3B3DA'
+    Trek Silque SLR 8 Women's - 2017: '#D3B3DA'
+    Sun Bicycles Drifter 7 - 2017: '#9EE5E5'
+    Trek Boy's Kickster - 2015/2017: '#454E7C'
+    Haro SR 1.1 - 2017: '#D1C6BC'
+    Surly Ogre Frameset - 2017: '#454E7C'
+    Trek Remedy 9.8 - 2017: '#5AC189'
+    Trek Emonda S 5 - 2017: '#FF7F44'
+    Sun Bicycles Lil Kitt'n - 2017: '#666666'
+    Trek Girl's Kickster - 2017: '#E04355'
+    Sun Bicycles Brickell Tandem CB - 2017: '#FCC700'
+    Surly Wednesday - 2017: '#A868B7'
+    Trek Session DH 27.5 Carbon Frameset - 2017: '#1FA8C9'
+    Electra Townie Original 21D EQ - 2017/2018: '#8FD3E4'
+    Electra Townie Commute Go! Ladies' - 2018: '#3CCCCB'
+    Electra Treasure 1 20" - 2018: '#3CCCCB'
+    Electra Townie Commute 27D Ladies - 2018: '#A38F79'
+    Trek Fuel EX 8 29 XT - 2018: '#A38F79'
+    Electra Townie Commute 8D Ladies' - 2018: '#8FD3E4'
+    Electra Koa 3i Ladies' - 2018: '#8FD3E4'
+    Electra Queen of Hearts 3i - 2018: '#A1A6BD'
+    Trek Domane ALR 5 Gravel - 2018: '#ACE1C4'
+    Surly Straggler - 2018: '#EFA1AA'
+    Electra Townie Original 7D EQ Ladies' - 2017/2018: '#E04355'
+    Electra Relic 3i - 2018: '#9EE5E5'
+    Trek Domane ALR 5 Disc - 2018: '#FCC700'
+    Trek XM700+ - 2018: '#FF7F44'
+    Trek Domane SL 6 Disc - 2018: '#666666'
+    Trek Emonda ALR 6 - 2018: '#ACE1C4'
+    Trek Marlin 5 - 2018: '#A868B7'
+    Electra Townie Go! 8i Ladies' - 2018: '#FEC0A1'
+    Surly Pack Rat - 2018: '#A38F79'
+    Surly Straggler 650b - 2018: '#B2B2B2'
+    Trek Conduit+ - 2018: '#A1A6BD'
+    Trek Stache 5 - 2018: '#ACE1C4'
+    Trek Kickster - 2018: '#FEC0A1'
+    Surly Krampus - 2018: '#1FA8C9'
+    Trek Kids' Neko - 2018: '#EFA1AA'
+    Trek MT 201 - 2018: '#FDE380'
+    Surly Troll Frameset - 2018: '#8FD3E4'
+    Surly ECR - 2018: '#9EE5E5'
+    Trek 1120 - 2018: '#D1C6BC'
+    Electra Moto 3i - 2018: '#3CCCCB'
+    Trek Marlin 6 - 2018: '#E04355'
+    Trek Lift+ - 2018: '#FCC700'
+    Trek 820 - 2018: '#A868B7'
+    Electra Townie Original 7D EQ - 2016: '#454E7C'
+    Electra Townie Original 7D - 2015/2016: '#E04355'
+    Trek Remedy 29 Carbon Frameset - 2016: '#FF7F44'
+    Electra Cruiser Lux Fat Tire 1 Ladies - 2017: '#ACE1C4'
+    Electra Cruiser Lux 1 - 2016/2018: '#FDE380'
+    Trek Domane SL 6 - 2018: '#FEC0A1'
+    Trek Precaliber 16 Girl's - 2018: '#B2B2B2'
+    Trek Powerfly 7 FS - 2018: '#FDE380'
+    Trek Dual Sport+ - 2018: '#D3B3DA'
+    Strider Strider 20 Sport - 2018: '#FCC700'
+    Electra Delivery 3i - 2016/2017/2018: '#FCC700'
+    Trek Precaliber 12 Boy's - 2018: '#A38F79'
+    Electra Cruiser Lux 3i - 2018: '#B2B2B2'
+    Surly ECR 27.5 - 2018: '#B2B2B2'
+    Trek Fuel EX 7 29 - 2018: '#FDE380'
+    Trek Domane SLR 6 - 2018: '#666666'
+    Trek Verve+ - 2018: '#EFA1AA'
+    Trek Domane SL 8 Disc - 2018: '#9EE5E5'
+    Trek Powerfly 5 FS - 2018: '#3CCCCB'
+    Trek Verve+ Lowstep - 2018: '#A868B7'
+    Trek Domane SL 5 - 2018: '#5AC189'
+    Electra Townie Commute 27D - 2018: '#666666'
+    Electra Townie Original 1 - 2018: '#A868B7'
+    Trek Procaliber 6 - 2018: '#FEC0A1'
+    Electra White Water 3i - 2018: '#3CCCCB'
+    NY: '#454E7C'
+    Baldwin: '#5AC189'
+    TX: '#8FD3E4'
+    Rowlett: '#A1A6BD'
+    CA: '#ACE1C4'
+    Santa Cruz: '#FEC0A1'
+    Surly Ice Cream Truck Frameset - 2016: '#1FA8C9'
+    Electra Cruiser Lux 1 Ladies' - 2018: '#1FA8C9'
+    Trek Fuel EX 5 Plus - 2018: '#5AC189'
+    Surly Big Fat Dummy Frameset - 2018: '#E04355'
+    Trek Boone 7 Disc - 2018: '#A1A6BD'
+    Electra Super Moto 8i - 2018: '#8FD3E4'
+    Trek Boone 5 Disc - 2018: '#EFA1AA'
+    Trek Domane SL Frameset Women's - 2018: '#454E7C'
+    Electra Straight 8 3i - 2018: '#454E7C'
+    Trek Remedy 7 27.5 - 2018: '#5AC189'
+    Electra Loft Go! 8i - 2018: '#5AC189'
+    Electra Cruiser 7D Tall - 2016/2018: '#D3B3DA'
+    Trek Neko+ - 2018: '#8FD3E4'
+  color_scheme_domain: []
+version: 1.0.0

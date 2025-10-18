@@ -1,0 +1,47 @@
+slice_name: Order Status Distribution
+description: null
+certified_by: null
+certification_details: null
+viz_type: pie
+params:
+  datasource: 15__table
+  viz_type: pie
+  slice_id: 7
+  groupby:
+  - order_status_label
+  metric:
+    aggregate: null
+    column: null
+    datasourceWarning: false
+    expressionType: SQL
+    hasCustomLabel: false
+    label: SUM(total_orders)
+    optionName: metric_ylkahl3zpu_45bc26obwgz
+    sqlExpression: SUM(total_orders)
+  adhoc_filters: []
+  row_limit: 100
+  sort_by_metric: true
+  color_scheme: supersetColors
+  show_labels_threshold: 1
+  roseType: null
+  show_legend: true
+  legendType: scroll
+  legendOrientation: top
+  label_type: key_percent
+  number_format: SMART_NUMBER
+  date_format: smart_date
+  show_labels: true
+  labels_outside: true
+  label_line: true
+  show_total: false
+  outerRadius: 75
+  donut: false
+  extra_form_data: {}
+  dashboards:
+  - 2
+  - 4
+query_context: '{"datasource":{"id":15,"type":"table"},"force":false,"queries":[{"filters":[],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":["order_status_label"],"metrics":[{"aggregate":null,"column":null,"datasourceWarning":false,"expressionType":"SQL","hasCustomLabel":false,"label":"SUM(total_orders)","optionName":"metric_ylkahl3zpu_45bc26obwgz","sqlExpression":"SUM(total_orders)"}],"orderby":[[{"aggregate":null,"column":null,"datasourceWarning":false,"expressionType":"SQL","hasCustomLabel":false,"label":"SUM(total_orders)","optionName":"metric_ylkahl3zpu_45bc26obwgz","sqlExpression":"SUM(total_orders)"},false]],"annotation_layers":[],"row_limit":100,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"form_data":{"datasource":"15__table","viz_type":"pie","slice_id":7,"groupby":["order_status_label"],"metric":{"aggregate":null,"column":null,"datasourceWarning":false,"expressionType":"SQL","hasCustomLabel":false,"label":"SUM(total_orders)","optionName":"metric_ylkahl3zpu_45bc26obwgz","sqlExpression":"SUM(total_orders)"},"adhoc_filters":[],"row_limit":100,"sort_by_metric":true,"color_scheme":"supersetColors","show_labels_threshold":1,"roseType":null,"show_legend":true,"legendType":"scroll","legendOrientation":"top","label_type":"key_percent","number_format":"SMART_NUMBER","date_format":"smart_date","show_labels":true,"labels_outside":true,"label_line":true,"show_total":false,"outerRadius":75,"donut":false,"extra_form_data":{},"dashboards":[2,4],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 6de694ed-adcf-4eff-8a49-752a819d4a86
+version: 1.0.0
+dataset_uuid: 33b2eb94-12ed-45b9-8fdd-9eacff4792bc
