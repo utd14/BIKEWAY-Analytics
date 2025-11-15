@@ -69,10 +69,10 @@ docker-compose up -d
    python custom_exporter.py
    ```
 - Access URLs
-	**Prometheus**: http://localhost:9090
-	**Grafana**: http://localhost:3001 (admin/admin)
-	**PostgreSQL Exporter**: http://localhost:9187/metrics
-	**Node Exporter**: http://localhost:9100/metrics
+	**Prometheus**: http://localhost:9090 \
+	**Grafana**: http://localhost:3001 (admin/admin) \
+	**PostgreSQL Exporter**: http://localhost:9187/metrics \
+	**Node Exporter**: http://localhost:9100/metrics \
 	**Custom Exporter**: http://localhost:8000/metrics
 - Login to Grafana: admin admin
 - Add Prometheus Data Source (http://prometheus:9090)
