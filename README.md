@@ -31,17 +31,18 @@ You can see infomration about the field of each colum, relationships and keys in
    - get latest 3.x version
    - run installer
    - check "Add Python to PATH"
-3. Open Command Prompt (Win+R, type `cmd`)
-4. Check installations
+3. Download Docker Desktop from https://www.docker.com/products/docker-desktop/
+4. Open Command Prompt (Win+R, type `cmd`)
+5. Check installations
    ```bash
    python --version
    psql --version
    ```
-5. Navigate to your project folder
+6. Navigate to your project folder
    ```bash
    cd C:\path\to\your\project
    ```
-6. Install dependencies
+7. Install dependencies
    - `pip install -r requirements.txt`
 
 ## Database Connection
