@@ -90,4 +90,7 @@ PostgreSQL - Relational database management system \
 SQL - Query language for data analysis \
 Python - Data manipulation and automation \
 Apache Superset - Data visualization platform \
-VS Code - Code editor 
+VS Code - Code editor \
+Prometheus \
+Grafana \
+Docker Desktop
