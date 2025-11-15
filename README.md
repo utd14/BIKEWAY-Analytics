@@ -22,6 +22,7 @@ You can see infomration about the field of each colum, relationships and keys in
 ## Prerequisites
 - PostgreSQL (version 12 or higher)
 - Python 3.8+
+- Docker Desktop installed and running
 ## Tool installation (Windows 10)
 1. Download PostgreSQL from https://www.postgresql.org/download/windows/ 
    - run installer, set password for postgres user (remember it)
@@ -32,29 +33,55 @@ You can see infomration about the field of each colum, relationships and keys in
    - check "Add Python to PATH"
 3. Open Command Prompt (Win+R, type `cmd`)
 4. Check installations
-   ```cmd
+   ```bash
    python --version
    psql --version
    ```
 5. Navigate to your project folder
-   ```cmd
+   ```bash
    cd C:\path\to\your\project
    ```
-6. Install libraries
-   - `pip install pandas matplotlib plotly openpyxl sqlalchemy numpy psycopg2`
-   - `pip install mysql-connector-python`
-   - `pip install psycopg2-binary`
+6. Install dependencies
+   - `pip install -r requirements.txt`
 
 ## Database Connection
 - In the `installation` folder open `db_create.py` and enter your desired database name on the line 14 (`NEW_DB_NAME = 'bike_sales_test1'  # CHANGE THE NAME`), as well as your PosgtreSQL username and password.
 - In the same folder, run `python db_create.py`, `python tables_create.py` and `python data_import.py` in this order.
+
+# Usage
+## Test
 - Run `python main.py` from the main folder.
-   ```cmd
+   ```bash
    cd C:\path\to\your\folder
    pip install psycopg2-binary
    python main.py
    ```
-- For data analytics, run `python analytics.py` from the analytics folder.
+## Data Analytics
+- Run `python analytics.py` from the analytics folder.
+## Grafana and Prometheus
+- Start all services using Docker Compose:
+```bash
+docker-compose up -d
+```
+- Start custom exporter
+   ```bash
+   python custom_exporter.py
+   ```
+- Access URLs
+	**Prometheus**: http://localhost:9090
+	**Grafana**: http://localhost:3001 (admin/admin)
+	**PostgreSQL Exporter**: http://localhost:9187/metrics
+	**Node Exporter**: http://localhost:9100/metrics
+	**Custom Exporter**: http://localhost:8000/metrics
+- Login to Grafana: admin admin
+- Add Prometheus Data Source (http://prometheus:9090)
+- Import Dashboards
+	1. Click **+** (plus icon in left sidebar) → **Import**
+	2. Click **Upload JSON file**
+	3. Select `dashboards/dashboard_1_database.json`
+	4. **Select datasource:** Choose `Prometheus`
+	5. Click **Import**
+	6. Do the same with remaining dahsboards.
 
 # Tools and Resources
 Bike Store Relational Database by Dillon Myrick \
