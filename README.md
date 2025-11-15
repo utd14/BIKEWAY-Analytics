@@ -68,7 +68,7 @@ docker-compose up -d
    ```bash
    python custom_exporter.py
    ```
-- Access URLs
+- Access URLs \
 	**Prometheus**: http://localhost:9090 \
 	**Grafana**: http://localhost:3001 (admin/admin) \
 	**PostgreSQL Exporter**: http://localhost:9187/metrics \
